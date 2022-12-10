@@ -13,14 +13,8 @@ td{
 .center {
 	margin: auto;
 	width: 50%;
-	border: 4px solid green;
 	padding: 10px;
 }
-.div-center {
-	margin: auto;
-	width: 50%;
-}
-
 .button {
 	display: inline-block;
 	padding: 15px 25px;
