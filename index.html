@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="styles.css">
-		<title>Rock Paper Scissors</title>
-	</head>
-
-	<body>
-
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors Tutorial</title>
+  </head>
+  <body>
 		<div class = "center">
-			<div class = "horizontal">
-					<h2 class="shadow"> COMPUTER CHOICE </h2>
-					<h2 class="shadow"> USER CHOICE </h2>
-					<h2 class="shadow"> RESULT </h2>	
-			</div>
-			<div class = "horizontal">
-					<h3 id = "computer-choice"></h2>
-					<h3 id = "user-choice"></h2>
-					<h3 id = "result"></h2>
-			</div>
-			<div class = "div-center">
-				<ul>
-					<li><button class="button" id="rock"> Rock </button></li>
-					<li><button class="button" id="papper"> Papper </button></li>
-					<li><button class="button" id="scissors"> Scissors </button></li>
-				</ul>
+			<table>
+				<tr>
+				  	<th><h2>Computer Choice: </h2></th>
+					<th><h2>Your Choice: </h2></th>
+					<th><h2>Result: </h2></th>
+				</tr>
+				<tr>
+				  <td><h2 id = "computer-choice"></h2></td>
+				  <td><h2 id = "user-choice"></h2></td>
+				  <td><h2 id = "result"></h2></td>
+				</tr>
+			</table>
+			<div class="div-center">
+				<button class = "button" id="rock">rock</button>
+				<button class = "button" id="paper">paper</button>
+				<button class = "button" id="scissors">scissors</button>
 			</div>
 		</div>
 
-		<script src = "app.js"></script>
-
-	</body>
+    	<script src="app.js" charset="utf-8"></script>
+  </body>
 </html>
