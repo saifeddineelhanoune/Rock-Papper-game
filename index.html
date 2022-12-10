@@ -6,15 +6,25 @@
     <title>Rock Paper Scissors Tutorial</title>
   </head>
   <body>
-		<div class = "center">
+		<div style="background-image: url('asset/gameback.png');" class = "center">
 			<table>
 				<tr>
 				  	<th><h2>Computer Choice: </h2></th>
-					<th><h2>Your Choice: </h2></th>
+					<th>
+						<h2 
+							id = "computer-choice"
+							style="color: #ff7f50;">
+						</h2>
+					</th>
 				</tr>
 				<tr>
-				  <td><h2 id = "computer-choice"></h2></td>
-				  <td><h2 id = "user-choice"></h2></td>
+				  <td><h2>Your Choice: </h2></td>
+				  <td>
+						<h2 
+							id = "user-choice"
+							style="color:#ff8c00;">
+						</h2>
+					</td>
 				</tr>
 			</table>
 			<div class="center">
@@ -22,7 +32,8 @@
 				<button class = "button" id="paper">paper</button>
 				<button class = "button" id="scissors">scissors</button>
 			</div>
-				<h2 id = "result"></h2>
+			<h2>RESULT</h2>
+			<h1 id = "result"></h1>
 		</div>
 
     	<script src="app.js" charset="utf-8"></script>

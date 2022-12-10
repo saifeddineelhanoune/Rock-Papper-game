@@ -1,14 +1,12 @@
-
-h2 {
+h1,label{
+	position: relative;
+	left: 310px;
+}
+h2{
 	padding: 20px;
 	width: 40%;
-	color: rgb(128, 226, 43);
 	font-family: Georgia;
-}
-td{
-	width: 50%;
-	color: #4CAF50;
-	font-family: Verdana;
+	color: #778899;
 }
 .center {
 	margin: auto;
@@ -30,11 +28,11 @@ td{
 	box-shadow: 0 9px #999;
   }
   
-  .button:hover {
+.button:hover {
 	background-color: #3e628e
 }
 
-  .button:active {
+.button:active {
 	background-color: #3e8e41;
 	box-shadow: 0 5px rgb(126, 43, 43);
 	transform: translateY(4px);
